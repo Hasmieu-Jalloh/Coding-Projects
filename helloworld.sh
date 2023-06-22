@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-world="World"
-echo "Hello world"
+world="Hasmieu"
+echo "Hello $world"
