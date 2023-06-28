@@ -7,7 +7,7 @@ def roll_dice():
     print("Enter 'done' to end the program")
     user_input = input("Type 'roll' to roll the dice: ").lower()
     print(f"You rolled {dice_number}")
-    if user_input == "done":
+    if "done" == user_input:
         quit()
     print("The program terminated successfully")
 
