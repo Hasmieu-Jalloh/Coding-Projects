@@ -52,8 +52,8 @@ class variance:
 
     def range(self):
         user_data = self.user_data
-        range = user_data[-1] - user_data[0]
-        return range
+        stats_range = user_data[-1] - user_data[0]
+        return stats_range
 
     def var(self):
         user_data = self.user_data
