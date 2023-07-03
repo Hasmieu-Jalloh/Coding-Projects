@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-import os
 import math  # I import this to be able to use the square root funciton
 
 
