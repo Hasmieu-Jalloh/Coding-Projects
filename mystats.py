@@ -111,7 +111,7 @@ print(
 )
 
 user_input = [
-    int(i) for i in input("Input data: ").split()
+    int(input_data) for input_data in input("Input data: ").split()
 ]  # collects (directly from the user input) the user input in a list form, because the data for calculating should be in a list
 user_input.sort()
 varian = variance(
@@ -133,7 +133,7 @@ user_choice_to_calculate = {
 }
 
 all_commands = [
-    'Type any of the following commands below: ', 'mean', 'median', 'mode',
+    'ype any of the following commands below: ', 'mean', 'median', 'mode',
     'range', 'std for standard deviation', 'variance',
     'iqr for interquartile range',
     'quarters for both quarter1 and quarter3 (hence quarter is the median)',
