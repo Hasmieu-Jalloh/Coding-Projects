@@ -1,8 +1,8 @@
-#!/bin/c
 #include <stdio.h>
 
+int main(){
+   printf("Hello there, just coding in the terminal with c\n");
+   printf("Also, I'm still learning some cool stuffs");
 
-int main(void){
-   printf("Hello there, just coding in the terminal with c");
    return 0;
 }
