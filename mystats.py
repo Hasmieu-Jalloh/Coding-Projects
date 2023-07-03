@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+import os
 import math  # I import this to be able to use the square root funciton
 
 
@@ -155,9 +155,9 @@ try:
             break
         else:
             print(
-                f"I don't recognize '{user_choice_input}'\nplease type '? or help' to see all possible commands."
+                f"I don't recognize '{user_choice_input}'\nplease type '?' or 'help' to see all possible commands."
             )
-except Exception as e:
-    print(e)
+except TypeError as e:
+    print(e,"\nPlease put in the right data format")
 
 print("Program terminated successfully!")
