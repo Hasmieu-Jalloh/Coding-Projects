@@ -27,9 +27,8 @@ class variance:
             middle_value2 = int(middle_value - 1)
             median = (user_data[middle_value] + user_data[middle_value2]) / 2
             return median
-        else:
-            middle_value = int(data_len / 2)
-            return user_data[middle_value]
+        middle_value = int(data_len / 2)
+        return user_data[middle_value]
 
     def mode(self):
         user_data = self.user_data
