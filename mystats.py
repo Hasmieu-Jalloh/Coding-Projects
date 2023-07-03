@@ -133,7 +133,7 @@ user_choice_to_calculate = {
 }
 
 all_commands = [
-    'type any of the following commands below: ', 'mean', 'median', 'mode',
+    'Type any of the following commands below: ', 'mean', 'median', 'mode',
     'range', 'std for standard deviation', 'variance',
     'iqr for interquartile range',
     'quarters for both quarter1 and quarter3 (hence quarter is the median)',
