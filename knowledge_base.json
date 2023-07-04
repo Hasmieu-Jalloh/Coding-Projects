@@ -7,6 +7,10 @@
     {
       "question": "What year was this bot created?",
       "answer": "2023"
+    },
+    {
+      "question": "/home/codespace/.python/current/bin/python3 /workspaces/PythonProjects/str_reversed.py",
+      "answer": "/home/codespace/.python/current/bin/python3 /workspaces/PythonProjects/str_reversed.py"
     }
   ]
 }

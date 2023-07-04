@@ -11,7 +11,7 @@ def reversed_string(string_input) -> str:
     return reversed_str
 
 
-name = "Hasmieu"
+name = "This is just a test"
 
 test = reversed_string(name)
 
