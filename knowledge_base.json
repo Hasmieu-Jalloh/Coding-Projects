@@ -11,6 +11,10 @@
     {
       "question": "/home/codespace/.python/current/bin/python3 /workspaces/PythonProjects/str_reversed.py",
       "answer": "/home/codespace/.python/current/bin/python3 /workspaces/PythonProjects/str_reversed.py"
+    },
+    {
+      "question": "When does school reopen?",
+      "answer": "August"
     }
   ]
 }

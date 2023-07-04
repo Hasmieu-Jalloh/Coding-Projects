@@ -26,7 +26,7 @@ def chat_bot():
     while True:
         user_input: str = input("You: ")
 
-        if user_input.lower() == 'quit':
+        if 'quit' == user_input.lower():
             exit()
 
         best_match: str | None = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]])
