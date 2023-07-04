@@ -3,6 +3,10 @@
     {
       "question": "who created this bot?",
       "answer": "Hasmieu Jalloh"
+    },
+    {
+      "question": "What year was this bot created?",
+      "answer": "2023"
     }
   ]
 }
