@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-import math  # I import this to be able to use the square root funciton
+from math import sqrt # since I'm using only the sqrt() function, it is better to import just the function I need.
 
 
 class variance:
@@ -71,7 +70,7 @@ class variance:
         user_data = self.user_data
         data_var = variance(user_data)
         data_variance = data_var.var()
-        standard_deviation = math.sqrt(
+        standard_deviation = sqrt(
             data_variance)  # used the square root function from the math library
         return standard_deviation
 
