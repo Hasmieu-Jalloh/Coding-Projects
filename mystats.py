@@ -12,7 +12,7 @@ class variance:
         data_sum = 0
         for data_values_sum in self.user_data:
             data_sum += data_values_sum
-        return data_sum / len(self.user_data)
+        return data_sum / len(self.user_data) # Because to get the mean/average, you divide the sum of the data by the number of data you have.
 
     def median(self):
         user_data = self.user_data
