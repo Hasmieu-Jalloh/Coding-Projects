@@ -8,7 +8,7 @@ def intersection(arr1, arr2):
     for indices1 in range(arr1_len):
         for indices2 in range(arr2_len):
             if arr1[indices1] == arr2[indices2]:
-                intersected_values.append(arr1[indices1])   
+                intersected_values.append(arr1[indices1])
                 break
     return intersected_values
 
