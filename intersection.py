@@ -1,6 +1,6 @@
 # Checking for values that exists in both arrays
 
-def intersection(arr1, arr2) -> list:
+def intersection(arr1, arr2):
     # Function printing the intersections between two lists
     arr1_len = len(arr1)
     arr2_len = len(arr2)
